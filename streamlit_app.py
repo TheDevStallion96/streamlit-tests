@@ -15,3 +15,5 @@ age_range = st.selectbox(
 # Color picker for favorite color
 favorite_color = st.color_picker('Pick your favorite color', '#00f900')
 
+with st.sidebar:
+	st.header("ChatBot")
